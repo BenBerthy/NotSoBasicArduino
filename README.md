@@ -25,24 +25,41 @@ My objective was to make a LED light fade in and out.
     fadeAmount = -fadeAmount;
   }
 ```
-The 
 
 ### Evidence
 [Evidence](https://create.arduino.cc/editor/Ben_Berthy123/9c4aa851-88aa-4b7c-bbfa-2604bda92def)
 
 ### Images
-<img src=
+DO THIS
 ### Reflection
 
 ## LED Blink Revisited
-
+DO THIS
 ### Description & Code
+This code is as simple as it gets, its just a LED blinking.
+
+```C++
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
 
 ### Evidence
-
+[Evidence](https://create.arduino.cc/editor/Ben_Berthy123/7d987f93-11e8-482f-a7b8-852e78559434)
 ### Images
-
+DO THIS
 ### Reflection
+This was the easiest part of this entire day. I would say that I learned what both void Setup and void loop do.
+
 
 ## Finite LED Blinker
 
@@ -84,7 +101,7 @@ void loop() {
 ### Evidence
 [Evidence](https://create.arduino.cc/editor/Ben_Berthy123/d6f6e6de-eb6f-4ea5-aec8-49dcc091f1f7)
 ### Images
-
+DO THIS
 ### Reflection
 This was a practically effortless code, you gave me the code in the beggining, and all I had to do was figure it out on the Bread Board. I learned that a lot of the time, its ok to use others code (If you cite them), because I guess that normal in Engineering.
 
@@ -142,7 +159,6 @@ Its pretty cool!
 [Evidence](https://create.arduino.cc/editor/Ben_Berthy123/878b9368-c8a6-42b4-8ae0-eeb4f6d408a1)
 
 ### Images
-draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIVELY communicate how its put together.
 DO THIS
 ### Reflection
 This code was particularly challenging for me, I needed a lot fo help from the internat, and I had to remake it a couple times to get it correct. What i learned was that sometimes you have to keep trying to succeed.
@@ -163,7 +179,6 @@ Talk about how the code works, here....
 link goes here
 
 ### Images
-draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIVELY communicate how its put together.
-
+DO THIS
 ### Reflection
 
