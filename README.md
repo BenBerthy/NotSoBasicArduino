@@ -34,7 +34,7 @@ DO THIS
 ### Reflection
 
 ## LED Blink Revisited
-DO THIS
+
 ### Description & Code
 This code is as simple as it gets, its just a LED blinking.
 
@@ -162,23 +162,3 @@ Its pretty cool!
 DO THIS
 ### Reflection
 This code was particularly challenging for me, I needed a lot fo help from the internat, and I had to remake it a couple times to get it correct. What i learned was that sometimes you have to keep trying to succeed.
-
-## NewPing
-
-### Description & Code
-Description goes here
-
-Here's how you make code look like code:
-
-```C++
-Code goes here
-```
-Talk about how the code works, here....
-
-### Evidence
-link goes here
-
-### Images
-DO THIS
-### Reflection
-
