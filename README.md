@@ -194,7 +194,7 @@ So this thing works, by the photoresistor recording a specific lightness/darknes
 [Evidence}(https://create.arduino.cc/editor/Ben_Berthy123/2d8eb21d-1829-4dda-91be-9dffe4100d68)
 
 ### Images
-![](https://hacksterio.s3.amazonaws.com/uploads/attachments/523889/555_bC0rol83ox.jpg)
+![Screenshot 2021-01-30 at 12 34 02 AM](https://user-images.githubusercontent.com/71345176/106348267-f0d26680-6292-11eb-8a7d-e2e6758e1415.png)
 
 ### Reflection
 I learned about finding and recording light Value. As complicated as it may seem, it was not as difficult as I expected.
