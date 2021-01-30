@@ -33,7 +33,7 @@ void loop() {
 ### Evidence
 [Evidence](https://create.arduino.cc/editor/Ben_Berthy123/7d987f93-11e8-482f-a7b8-852e78559434)
 ### Images
-DO THIS
+![Screenshot 2021-01-30 at 12 45 39 AM](https://user-images.githubusercontent.com/71345176/106348468-7dc9ef80-6294-11eb-83b1-606679f40811.png)
 ### Reflection
 This was the easiest part of this entire day. I would say that I learned what both void Setup and void loop do.
 
@@ -41,13 +41,36 @@ This was the easiest part of this entire day. I would say that I learned what bo
 ## Finite LED Blinker
 
 ### Description & Code
+This is practically the same as the previous assignment, but this time it only blinks 5 times.
+```C++
+
+void loop()
+{
+
+
+  //
+}
+
+void blinkyBlinky(int repeats, int time)
+{
+  for (int i = 0; i < repeats; i++)
+  {
+    digitalWrite(Counter, HIGH);
+    delay(time);
+    digitalWrite(Counter, LOW);
+    delay(time);
+  }
+}
+```
+The way this works is by making the arduino boad count up to a specific number.
 
 ### Evidence
-
+[Evidence](https://create.arduino.cc/editor/Ben_Berthy123/5d1992cf-db73-47a7-a438-b912e7e48087)
 ### Images
+![Screenshot 2021-01-30 at 12 43 24 AM](https://user-images.githubusercontent.com/71345176/106348420-2d529200-6294-11eb-834c-b7d1e7011184.png)
 
 ### Reflection
-
+I learnt about using proper variables for my code lines. I also found out how Conditional Operaters function.
 ## Arduino Review Assignment
 
 ### Description & Code
@@ -78,7 +101,7 @@ void loop() {
 ### Evidence
 [Evidence](https://create.arduino.cc/editor/Ben_Berthy123/d6f6e6de-eb6f-4ea5-aec8-49dcc091f1f7)
 ### Images
-DO THIS
+![Screenshot 2021-01-30 at 12 46 55 AM](https://user-images.githubusercontent.com/71345176/106348500-b4a00580-6294-11eb-96e8-175c73f023b9.png)
 ### Reflection
 This was a practically effortless code, you gave me the code in the beggining, and all I had to do was figure it out on the Bread Board. I learned that a lot of the time, its ok to use others code (If you cite them), because I guess that normal in Engineering.
 
@@ -136,7 +159,7 @@ Its pretty cool!
 [Evidence](https://create.arduino.cc/editor/Ben_Berthy123/878b9368-c8a6-42b4-8ae0-eeb4f6d408a1)
 
 ### Images
-DO THIS
+![Screenshot 2021-01-30 at 12 40 46 AM](https://user-images.githubusercontent.com/71345176/106348381-d8168080-6293-11eb-9d4c-242904ca4c1e.png)
 ### Reflection
 This code was particularly challenging for me, I needed a lot fo help from the internat, and I had to remake it a couple times to get it correct. What i learned was that sometimes you have to keep trying to succeed.
 
