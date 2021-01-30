@@ -9,29 +9,6 @@
 * [NewPing](#NewPing)
 ---
 
-## LED_Fade
-
-### Description & Code
-My objective was to make a LED light fade in and out.
-
-```C++
-  analogWrite(led, brightness);
-
-  // change the brightness for next time through the loop:
-  brightness = brightness + fadeAmount;
-
-  // reverse the direction of the fading at the ends of the fade:
-  if (brightness <= 0 || brightness >= 255) {
-    fadeAmount = -fadeAmount;
-  }
-```
-
-### Evidence
-[Evidence](https://create.arduino.cc/editor/Ben_Berthy123/9c4aa851-88aa-4b7c-bbfa-2604bda92def)
-
-### Images
-DO THIS
-### Reflection
 
 ## LED Blink Revisited
 
